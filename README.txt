@@ -1,8 +1,17 @@
 INSTRUÇÕES DE USO DOCKERFILE
 
-Ao acessar sua EC2, clone este repositorio na em sua instacia.
+Atualize os pacotes do sistema utilizando "sudo apt update && sudo apt upgrade –y"
 
-Depois disso, verifique se sua instancia possui o docker instalado.
+Verificar se sua instacia possui NPM instalado.
+Em caso de necessidade, use o comando "sudo apt install npm"
+
+Verificar se sua instacia possui node.js instalado.
+Em caso de necessidade, use o comando "sudo apt install nodejs"
+
+Verificar se sua instancia possui o docker instalado.
+Em caso de necessidade, use o comando "sudo apt install docker.io"
+
+Ao acessar sua EC2, clone este repositorio na em sua instacia.
 
 Acesse o diretório DockerfileGandin.
 
