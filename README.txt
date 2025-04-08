@@ -12,8 +12,10 @@ Verificar se sua instancia possui o docker instalado.
 Em caso de necessidade, use o comando "sudo apt install docker.io"
 
 Ao acessar sua EC2, clone este repositorio na em sua instacia.
+Utilizando git clone https://github.com/KaduRibeiro1/DockerfileGandin.git
 
 Acesse o diretório DockerfileGandin.
+Com o comando "cd DockerfileGandin/"
 
 Execute o comando "sudo docker build -t [nome desejado para o container]",
 para criar o seu container.
