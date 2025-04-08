@@ -17,10 +17,10 @@ Utilizando git clone https://github.com/KaduRibeiro1/DockerfileGandin.git
 Acesse o diretório DockerfileGandin.
 Com o comando "cd DockerfileGandin/"
 
-Execute o comando "sudo docker build -t [nome desejado para o container]",
+Execute o comando "sudo docker build -t [nome desejado para o container] .",
 para criar o seu container.
 
-Logo em seguida, execute o comando "sudo docker run -p 3000:3000 [nome dado ao container]", 
+Logo em seguida, execute o comando "sudo docker run -p 3333:3333 [nome dado ao container]", 
 para iniciar o container criado.
 
 Verifique se o container está ativo usando o comando "sudo docker ps -a",
